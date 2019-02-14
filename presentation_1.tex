@@ -111,6 +111,7 @@ Amirkabir University of Technology \\ % Your institution for the title page
 
 
 \section{Introduction}
+% New frame
 \begin{frame}
 \frametitle{Introduction}
 \begin{itemize}
@@ -134,6 +135,7 @@ Amirkabir University of Technology \\ % Your institution for the title page
 
 \end{figure}
 \end{frame}
+% New frame
 \begin{frame}
 \frametitle{Introduction}
 \begin{itemize}
@@ -151,6 +153,8 @@ Amirkabir University of Technology \\ % Your institution for the title page
 \includegraphics[scale=0.3]{Benz}
 \end{frame}
 \section{Graphic processing unit architecture}
+\subsection{Graphic card}
+% New frame
 \begin{frame}
 	\frametitle{Graphics card}
 	\begin{itemize}
@@ -165,6 +169,7 @@ Amirkabir University of Technology \\ % Your institution for the title page
 \includegraphics[scale=0.55]{graphiccard}
 \includegraphics[scale=0.3]{ibm}
 \end{frame}
+% New frame
 \begin{frame}
 \begin{itemize}
 	\item {Vertex processor}
@@ -178,12 +183,102 @@ Amirkabir University of Technology \\ % Your institution for the title page
 \includegraphics[scale=0.3]{cuda}
 \includegraphics[scale=0.3]{vertex}
 \end{frame}
-
+\subsection{CUDA}
+% New frame
 \begin{frame}
 \frametitle{CUDA}
+\begin{itemize}
+	\item 2006 / GeForce 8800
+	\item {parallel programming in NVidia processors}
+	\item programming like CPU (GPGPU)
+	\item Fortran / C++ / C
+	\item OpenCL / MATLAB / LabVIEW 
+\end{itemize}
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.3]{cuda1}
+\end{figure}
+\end{frame}
+% new frame
+\begin{frame}
+	\frametitle{CUDA}
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.25]{cuda2}
+\end{figure}
+\end{frame}
+\subsection{Fermi}
+
+% new frame
+\begin{frame}
+\frametitle{Architectures}
+\begin{itemize}
+	\item {On Tesla 1 SM combines 8 single-precision (FP32) shader processors}
+	\item {On Fermi 1 SM combines 32 single-precision (FP32) shader processors}
+	\item{On Kepler 1 SM combines 192 single-precision (FP32) shader processors and also 64 double-precision units (at least the GK110 GPUs)}
+	\item {On Maxwell 1 SM combines 128 single-precision (FP32) shader processors}
+	\item {On Pascal it depends
+	}	
+\end{itemize}
+\end{frame}
+% New frame
+\begin{frame}
+\frametitle{Fermi architecture}
+\begin{itemize}
+	\item Release date: April 2010
+	\item Transistors: 40 nm and 28 nm
+	\item Predecessor: Tesla 2.0
+	\item Successor: Kepler
+	\item  {used in the GeForce 400 series and GeForce 500 series}
+\end{itemize}
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.7]{fermi5}
+\end{figure}
+
+\end{frame}		
+% New frame
+\begin{frame}
+\frametitle{Fermi architecture}
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.6]{fermi2}
+\end{figure}
+
 \end{frame}
 
+% New frame
 \begin{frame}
+\frametitle{Fermi architecture}
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.45]{fermi3}
+\end{figure}
+
+\end{frame}
+
+% New frame
+\begin{frame}
+\frametitle{Fermi architecture}
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.27]{fermi4}
+\end{figure}
+
+\end{frame}
+\section{Pascal architecture}
+% New frame
+\begin{frame}
+ \frametitle{Pascal architecture}
+ \begin{itemize}
+ 	\item {successor to the Maxwell architecture}
+ 	\item {April 2016 with the release of the Tesla P100 (GP100) on April 5}
+ 	\item {primarily used in the GeForce 10 series}
+ \end{itemize}
+\end{frame}
+% New frame
+\begin{frame}
+
 \frametitle{References}
 [7] Drãxler, S., H. Karl, and Z.Á. Mann. Joint Optimization of Scaling and
 Placement of Virtual Network Services. in 2017 17th IEEE/ACM
